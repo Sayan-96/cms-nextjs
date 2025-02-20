@@ -1,0 +1,32 @@
+{
+    "users": [
+      {
+        "id": 1,
+        "email": "user@example.com",
+        "password": "password123"
+      },
+      {
+        "id": 2,
+        "email": "john.doe@example.com",
+        "password": "johnpassword"
+      }
+    ],
+    "courses": [
+      {
+        "id": 1,
+        "name": "Introduction to Next.js",
+        "description": "Learn the fundamentals of Next.js, a React framework for server-side rendering and static site generation."
+      },
+      {
+        "id": 2,
+        "name": "JavaScript for Beginners",
+        "description": "A beginner's guide to JavaScript, the programming language that powers the web."
+      },
+      {
+        "id": 3,
+        "name": "Mastering React",
+        "description": "Dive deep into React and learn how to build scalable applications."
+      }
+    ]
+  }
+  

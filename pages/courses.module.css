@@ -1,0 +1,35 @@
+/* pages/Courses.module.css */
+.container {
+    padding: 40px 0;
+    background: #f4f7fb; /* Light background color */
+  }
+  
+  .title {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 40px;
+    color: #333;
+  }
+  
+  .courseRow {
+    display: flex;
+    overflow-x: auto;
+    padding-bottom: 10px;
+    justify-content: flex-start;
+    gap: 20px; /* Space between cards */
+  }
+  
+  .courseRow::-webkit-scrollbar {
+    height: 8px;
+  }
+  
+  .courseRow::-webkit-scrollbar-thumb {
+    background-color: #888;
+    border-radius: 4px;
+  }
+  
+  .courseRow::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  

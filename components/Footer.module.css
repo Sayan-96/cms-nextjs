@@ -1,0 +1,13 @@
+/* components/Footer.module.css */
+.footer {
+    background: linear-gradient(135deg, #2575fc, #6a11cb);
+    color: white;
+    padding: 20px 0;
+    margin-top: 50px;
+  }
+  
+  .footerText {
+    font-size: 1rem;
+    font-weight: bold;
+  }
+  

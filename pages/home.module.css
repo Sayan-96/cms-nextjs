@@ -1,0 +1,47 @@
+/* pages/Home.module.css */
+.heroSection {
+    background: url('https://source.unsplash.com/1600x900/?technology,education') no-repeat center center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+  
+  .heroTitle {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    animation: fadeIn 2s ease-in-out;
+  }
+  
+  .heroSubtitle {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+    animation: fadeIn 3s ease-in-out;
+  }
+  
+  /* pages/Home.module.css */
+.heroButton {
+    font-size: 1.2rem;
+    padding: 12px 40px;
+    background-color: #ff5f57;
+    border: none;
+    border-radius: 30px;
+    text-transform: uppercase;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+  }
+  
+  .heroButton:hover {
+    background-color: #ff1f2a;
+    transform: translateY(-5px) scale(1.05);
+  }
+  
+  .heroButton:focus {
+    outline: none;
+  }
+  
+  
